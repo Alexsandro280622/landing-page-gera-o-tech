@@ -1,0 +1,52 @@
+/* variaveis de cores */
+:root{
+    --cor-primaria:#094b8d;
+    --cor-texto:#333;
+    --cor-clara:#f9f9f9;
+
+}
+
+/* resert layout navegador */
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: var(--cor-primaria);
+}
+
+.cabecalho {
+    background-color: var(--cor-primaria);
+    color: var(--cor-clara);
+    padding: 1rem;
+}
+
+
+.logo {
+    width: 140px;
+}
+
+.container {
+    width: 90% ;
+    margin:auto;
+}
+
+.cabecalho .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menu {
+    display: flex;
+    gap:1.5rem;
+    list-style: none;
+}
+.menu li a {
+    color: var(--cor-clara);
+    text-decoration: none;
+}
